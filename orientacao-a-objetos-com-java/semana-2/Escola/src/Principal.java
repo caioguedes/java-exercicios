@@ -7,7 +7,7 @@ public class Principal {
 		caio.bim3 = 80;
 		caio.bim4 = 70;
 		
-		System.out.println(VerificadoraNotas.mediaAluno(caio));
-		System.out.println(VerificadoraNotas.passouDeAno(caio));
+		System.out.println(caio.media());
+		System.out.println(caio.passouDeAno());
 	}
 }
